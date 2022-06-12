@@ -13,10 +13,6 @@ function App() {
   const [address, setAddress] = useState('');
   const [description, setDescription] = useState('');
 
-  const onSubmit = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <div className='App flex flex-wrap justify-center bg-slate-200 h-screen overflow-auto'>
       <div className='w-1/3 bg-slate-50 m-7 p-3 border border-black rounded-lg'>
